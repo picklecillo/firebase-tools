@@ -16,3 +16,6 @@ RUN sudo apt update
 RUN sudo apt install -y curl
 # Install base tools
 RUN curl -sL firebase.tools | bash
+
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+RUN sudo apt install -y nodejs
